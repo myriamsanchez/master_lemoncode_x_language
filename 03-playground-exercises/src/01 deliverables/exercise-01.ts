@@ -15,5 +15,5 @@ const init = (array: string[]) => array.slice(0, array.length-1);
 console.log(init(animals));
 
 console.log("last function(immutable), that returns last array element");
-const last = (array: string[]) => array.slice(-1);
+const last = (array: string[]) => array.slice(-1)[0];
 console.log(last(animals));
